@@ -23,7 +23,7 @@
 /*----------------------------------------*/
 /*----- 1 Generate Google Fonts  -----*/
 /*----------------------------------------*/
-@import url('https://fonts.googleapis.com/css?family=Manrope:300,400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 /*----------------------------------------*/
 /*----- 2 General Styles -----*/
 /*----------------------------------------*/
@@ -37,8 +37,8 @@ p:last-child { margin: 0; }
 /*----------------------------------------*/
 /*----- 3 Font Settings -----*/
 /*----------------------------------------*/
-body { font-family: 'Manrope', sans-serif; font-size: 16px; font-weight: 400; line-height: 1.6em; letter-spacing: 0.5px; }
-h1, h2, h3, h4, h5, h6 { font-family: 'Manrope', sans-serif; font-weight: 600; letter-spacing: -0.5px; }
+body { font-family: 'Lato', sans-serif; font-size: 16px; font-weight: 400; line-height: 1.6em; letter-spacing: 0.5px; }
+h1, h2, h3, h4, h5, h6 { font-family: 'Lato', sans-serif; font-weight: 600; letter-spacing: -0.5px; }
 h1 { font-size: 2.889em; line-height: 1.3em; }
 h2 { font-size: 2.333em; line-height: 1.3em; }
 h3 { font-size: 2.000em; line-height: 1.3em; }
@@ -328,7 +328,7 @@ ol li, ul li { margin-bottom: 10px; }
 /*----------------------------------------*/
 /*----- 6 Buttons -----*/
 /*----------------------------------------*/
-.dtr-btn, .dtr-btn-flat, input[type="submit"], input[type="reset"] { font-family: 'Manrope', sans-serif; width: auto; height: auto; position: relative; display: inline-block; padding: 15px 40px; margin: 0; cursor: pointer; border-width: 0; border-style: solid; border-radius: 0; text-decoration: none; outline: none; -webkit-backface-visibility: hidden; vertical-align: middle; text-align: center; font-weight: normal; font-weight: 600; font-size: 16px; line-height: 24px; }
+.dtr-btn, .dtr-btn-flat, input[type="submit"], input[type="reset"] { font-family: 'Lato', sans-serif; width: auto; height: auto; position: relative; display: inline-block; padding: 15px 40px; margin: 0; cursor: pointer; border-width: 0; border-style: solid; border-radius: 0; text-decoration: none; outline: none; -webkit-backface-visibility: hidden; vertical-align: middle; text-align: center; font-weight: normal; font-weight: 600; font-size: 16px; line-height: 24px; }
 .dtr-btn-flat { padding: 13px 30px 12px 30px; border-width: 2px; }
 .btn-rounded { border-radius: 4px; }
 .btn-round { border-radius: 200px; }
@@ -399,7 +399,7 @@ ol li, ul li { margin-bottom: 10px; }
 #dtr-header-global.on-scroll .logo-alt, #dtr-header-global .logo-default img { width: 6rem; }
 /*== Menu  ==*/
 .main-navigation { position: relative; margin-right: -20px; padding: 0; }
-.dtr-nav.navbar-nav .nav-link { font-family: 'Manrope', sans-serif; padding: 10px 20px; font-size: 18px; font-weight: 600; }
+.dtr-nav.navbar-nav .nav-link { font-family: 'Lato', sans-serif; padding: 10px 20px; font-size: 18px; font-weight: 600; }
 /*== Navbar Custom ==*/
 .navbar { padding-top: 0; padding-bottom: 0; }
 .navbar-nav li { margin: 0; }
@@ -830,9 +830,10 @@ transform: translateY(-20px);
 }
 
 #footer-contacts {
-    padding-left: 20rem;
+    /*padding-left: 20rem;*/
 }
 
 #dtr-footer img {
     width: 50%;
 }
+
