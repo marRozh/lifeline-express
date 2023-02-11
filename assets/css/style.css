@@ -355,7 +355,7 @@ ol li, ul li { margin-bottom: 10px; }
 .dtr-section-full-height { height: 100vh; }
 .dtr-full-stretch { width: 100% !important; max-width: 100% !important; }
 /* section backgrounds */
-.dtr-section-with-bg { background-position: center center; background-repeat: no-repeat; background-size: cover; }
+.dtr-section-with-bg { background-position: right center;; background-repeat: no-repeat; background-size: cover; }
 .dtr-section-fixed-bg { background-position: center center; background-repeat: no-repeat; background-size: cover; background-attachment: fixed; }
 .dtr-bg-size-auto { background-size: auto !important; }
 .dtr-bg-size-contain { background-size: contain !important; }
@@ -837,3 +837,9 @@ transform: translateY(-20px);
     width: 50%;
 }
 
+#header-text h1 {
+    font-size: 3.5rem;
+}
+#header-text p {
+    font-size: 2.8rem;
+}
